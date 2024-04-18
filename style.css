@@ -99,6 +99,7 @@ a {
   overflow: hidden;
   left: -250px;
   transition: left 0.3s ease-in-out;
+  backdrop-filter: blur;
 }
 
 #openSidebarBtn {
