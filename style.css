@@ -85,7 +85,7 @@ a {
   overflow: hidden;
   left: 0px;
   top: 10px;
-  backdrop-filter: blur;
+  backdrop-filter: blur (5.8px);
 }
 
 .sidebar .menu {
