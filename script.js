@@ -1,4 +1,4 @@
-=var sidebarOpen = true;
+=var sidebarOpen = false;
 var openSidebarBtn = document.getElementById("openSidebarBtn");
 var body = document.querySelector("body");
 
