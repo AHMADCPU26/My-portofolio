@@ -84,7 +84,7 @@ a {
   width: 250px;
   height: 100%;
   background-color: #333;
-  transition: right 0.3s; /* Add a smooth transition effect */
+  transition: left 0.3s; /* Use left instead of right for the transition */
   z-index: 1; /* Ensure the sidebar is above other content */
 }
 
@@ -98,7 +98,5 @@ a {
   color: #fff;
   cursor: pointer;
   z-index: 2;
-  transition: left 0.4s ease;
+  transition: left 0.4s ease; /* Use left instead of right for the transition */
 }
-
-/* Rest of your CSS styles... */
