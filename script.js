@@ -1,4 +1,4 @@
-=var sidebarOpen = false;
+=var sidebarOpen = true;
 var openSidebarBtn = document.getElementById("openSidebarBtn");
 var body = document.querySelector("body");
 
@@ -29,14 +29,3 @@ function toggleSidebar() {
 
   sidebarOpen = !sidebarOpen;
 }
-
-// Check if the sidebar should be open when the page loads (e.g., when navigating back or forward)
-if (localStorage.getItem("sidebarOpen") === "true") {
-  body.classList.add("sidebar-open");
-  sidebarOpen = true;
-}
-
-// Save the sidebar state to local storage
-window.addEventListener("beforeunload", function() {
-  localStorage.setItem("sidebarOpen", sidebarOpen);
-});
