@@ -32,14 +32,13 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #333;
   border: 5px solid #ffffff;
-  color: #fff;
   position: fixed;
   height: 100%;
   overflow: hidden;
   left: 0px;
   top: 10px;
+  backdrop-filter: blur;
 }
 
 
@@ -90,10 +89,8 @@ a {
 /* Your CSS styles here */
 
 .sidebar {
-  width: 250px;
   background-color: #333;
   border: 1px solid #ffffff;
-  color: #fff;
   position: fixed;
   height: 100%;
   overflow: hidden;
