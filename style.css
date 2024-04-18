@@ -83,10 +83,11 @@ a {
   position: fixed;
   height: 100%;
   overflow: hidden;
-  left: 0px;
+  left: -250px; /* Start off-screen */
   top: 10px;
   background-color: #333;
 }
+
 
 #openSidebarBtn {
   position: absolute;
