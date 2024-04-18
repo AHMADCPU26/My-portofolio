@@ -1,4 +1,3 @@
-// JavaScript code for toggling the sidebar when the button is clicked
 var sidebarOpen = false;
 var openSidebarBtn = document.getElementById("openSidebarBtn");
 
@@ -33,4 +32,4 @@ function toggleSidebar() {
   }
 
   sidebarOpen = !sidebarOpen;
-}\
+}
