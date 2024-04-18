@@ -87,6 +87,11 @@ a {
   backdrop-filter: blur;
 }
 
+.sidebar .menu {
+  color: white;
+}
+
+
 #openSidebarBtn {
   position: absolute;
   top: 10px;
